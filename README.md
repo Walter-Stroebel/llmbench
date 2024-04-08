@@ -29,3 +29,7 @@ The HTML version is created using PanDoc (pandoc -f markdown mistral.md mistral.
 
 Note that running the test requires a bit of knowledge and skill, you will need to have [Ollama](https://github.com/ollama/ollama) installed and be able to build the repo using Maven, which in turn requires Java.
 I have only tested this on Linux but it should be possible to get things running on Windows and MacOS as well.
+
+Some more runs:
+[gemma2b](gemma2b.md)
+[gemma7b](gemma7b.md)
