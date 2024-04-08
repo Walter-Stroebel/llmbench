@@ -15,3 +15,5 @@ Evaluation Methodology Enhancement: A unique aspect of this framework is adminis
 Highlights of the potential of the proposed testing framework to significantly advance LLM evaluation methodologies are:
 - Providing a clear, understandable, and relevant benchmark for AI capabilities.
 - The introduction of a secondary evaluation layer, using an existing LLM, enriches the assessment process, offers a comprehensive understanding of a tested LLM's real-world applicability and reasoning skills, with an added emphasis on making the evaluation process relatable and engaging for a broader audience.
+
+[You will find the tests used in the Proof of Concept project here](https://github.com/Walter-Stroebel/Jllama/tree/main/src/main/resources). The files ending in JSON are the actual test files, their format should be quite easy to understand.
