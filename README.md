@@ -1,2 +1,17 @@
-# llmbench
-LLM Benchmarking
+# LLM Benchmarking
+
+This project is about a novel approach to benchmarking Large Language Models (LLMs) using grade school tests across various languages and cultures, emphasizing real-world comprehension and reasoning capabilities. Key points include:
+
+Novel Testing Framework: A method of using grade school tests (real and synthetic) to evaluate LLMs was proposed, focusing on reading comprehension, logical deduction, and context understanding. This method aims for universality and practical applicability in assessing AI understanding and reasoning, mirroring tasks humans perform naturally.
+
+Cultural and Linguistic Diversity: The testing can expand to include materials from various societies and languages (e.g., Spanish, Portuguese, Russian, Chinese), aiming to assess the global competence and cultural sensitivity of LLMs.
+
+Detecting Biases and Lingering Focus: The proposed tests might incidentally reveal biases and the "lingering focus" effect—where recent topics unduly influence responses to subsequent, unrelated queries. Identifying such patterns is crucial for developing more objective and contextually adept LLMs.
+
+Real-World Relevance and Human Relatability: Emphasizing that any LLM claiming general applicability should exhibit flawless performance in these tests, akin to "graduating grade school," before undertaking more complex or critical tasks. This stance underlines the expectation for LLMs to achieve a high level of understanding and functionality, reflective of practical, everyday intelligence. Moreover, the use of grade school tests introduces a level of human relatability to the evaluation process, connecting it to a universal human experience and making the assessment of LLM capabilities more accessible and comprehensible to the general public.
+
+Evaluation Methodology Enhancement: A unique aspect of this framework is administering tests without multiple-choice answers, requiring LLMs to provide open responses. Then, an existing LLM with established capabilities analyzes the results, utilizing known answers for large-scale evaluation. This process is akin to a fine-tuning session, potentially involving multiple epochs, thereby leveraging the strengths and recognizing the limitations of current LLMs at a significant scale. This dual-layered approach provides a nuanced understanding of the tested LLM’s capabilities, including how it handles tasks without the aid of pre-defined choices and its performance on open-ended questions, across a comprehensive and extensive dataset.
+
+Highlights of the potential of the proposed testing framework to significantly advance LLM evaluation methodologies are:
+- Providing a clear, understandable, and relevant benchmark for AI capabilities.
+- The introduction of a secondary evaluation layer, using an existing LLM, enriches the assessment process, offers a comprehensive understanding of a tested LLM's real-world applicability and reasoning skills, with an added emphasis on making the evaluation process relatable and engaging for a broader audience.
