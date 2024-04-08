@@ -37,3 +37,5 @@ Some more runs:
 [gemma2b](gemma2b.md)
 
 [gemma7b](gemma7b.md) Interestingly enough, the bigger model scored way less than the smaller model. This is mostly due to the bigger model getting too creative.
+
+**In conclusion:** I have some work left to do for the Proof of Concept (POC) I present here to work flawlessly but I think I did manage to already get the idea across of creating more "human relatable" LLM testing :)
