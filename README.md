@@ -18,8 +18,8 @@ Highlights of the potential of the proposed testing framework to significantly a
 
 [You will find the tests used in the Proof of Concept project here](https://github.com/Walter-Stroebel/Jllama/tree/main/src/main/resources). The files ending in JSON are the actual test files, their format should be quite easy to understand.
 
-In this repo will find a real test run using the beloved model "Mistral 7B" as both the LLM under test and the evalutator [here](mistral.html). The source of that is [here](mistral.md), the HTML version is created using PanDoc (pandoc -f markdown mistral.md mistral.html).
-[This](running.png) is a screenshot of the test being run, it takes a few minutes for most small models. All of the source for this (and more functionality) you will find in my [Jllama]((https://github.com/Walter-Stroebel/Jllama) project here on GitHub.
+In this repo, you will find a real test run using the beloved model "Mistral 7B" as both the LLM under test and the evalutator [here](mistral.html). The source of that is [here](mistral.md), the HTML version is created using PanDoc (pandoc -f markdown mistral.md mistral.html).
+[This](running.png) is a screenshot of the test being run; it takes a few minutes for most small models. All of the source for this (and more functionality) you will find in my [Jllama](https://github.com/Walter-Stroebel/Jllama) project here on GitHub.
 
 Note that running the test requires a bit of knowledge and skill, you will need to have [Ollama](https://github.com/ollama/ollama) installed and be able to build the repo using Maven, which in turn requires Java.
 I have only tested this on Linux but it should be possible to get things running on Windows and MacOS as well.
