@@ -30,6 +30,10 @@ The HTML version is created using PanDoc (pandoc -f markdown mistral.md mistral.
 Note that running the test requires a bit of knowledge and skill, you will need to have [Ollama](https://github.com/ollama/ollama) installed and be able to build the repo using Maven, which in turn requires Java.
 I have only tested this on Linux but it should be possible to get things running on Windows and MacOS as well.
 
+**Note:** some of the formatting got messed up, I will try to fix that, it is due to the annoying habit of models to output Markdown even when nobody asked them to.
+
 Some more runs:
+
 [gemma2b](gemma2b.md)
-[gemma7b](gemma7b.md)
+
+[gemma7b](gemma7b.md) Interestingly enough, the bigger model scored way less than the smaller model. This is mostly due to the bigger model getting too creative.
