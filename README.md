@@ -30,12 +30,10 @@ The HTML version is created using PanDoc (pandoc -f markdown mistral.md mistral.
 Note that running the test requires a bit of knowledge and skill, you will need to have [Ollama](https://github.com/ollama/ollama) installed and be able to build the repo using Maven, which in turn requires Java.
 I have only tested this on Linux but it should be possible to get things running on Windows and MacOS as well.
 
-**Note:** some of the formatting got messed up, I will try to fix that, it is due to the annoying habit of models to output Markdown even when nobody asked them to.
-
 Some more runs:
 
-[gemma2b](gemma2b.md)
+[gemma2b, score=19.30](gemma2b.md) [html](gemma2b.html)
 
-[gemma7b](gemma7b.md) Interestingly enough, the bigger model scored way less than the smaller model. This is mostly due to the bigger model getting too creative.
+[gemma7b, score=20.80](gemma7b.md) [html](gemma7b.html)
 
-**In conclusion:** I have some work left to do for the Proof of Concept (POC) I present here to work flawlessly but I think I did manage to already get the idea across of creating more "human relatable" LLM testing :)
+**In conclusion:** When looking at the evaluations, the evaluator model has its own problems, sometimes answering both YES and NO for the same evaluation. Also the annoying habit of prefixing the answer with: "Sure, here is the answer" is not helping gemma7b. 
