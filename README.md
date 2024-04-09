@@ -36,4 +36,4 @@ Some more runs:
 
 [gemma7b, score=25.00](gemma7b.md) [html](gemma7b.html)
 
-**In conclusion:** When looking at the evaluations, the evaluator model has its own problems, sometimes answering both YES and NO for the same evaluation. Also the annoying habit of prefixing the answer with: "Sure, here is the answer" is not helping gemma7b. 
+**In conclusion:** When looking at the evaluations, the evaluator model has its own problems, sometimes answering both YES and NO for the same evaluation. Also gemma7b's annoying habit of prefixing the answer with: "Sure, here is the answer:" is not helping.
