@@ -18,7 +18,7 @@ Highlights of the potential of the proposed testing framework to significantly a
 
 [You will find the tests used in the Proof of Concept project here](https://github.com/Walter-Stroebel/Jllama/tree/main/src/main/resources). The files ending in JSON are the actual test files, their format should be quite easy to understand.
 
-Within this repository, a comprehensive test run is documented, showcasing 'Mistral 7B'—a highly regarded model—serving both as the LLM under examination and the evaluator. Detailed insights are available [here](mistral.md). 
+Within this repository, a comprehensive test run is documented, showcasing 'Mistral 7B'—a highly regarded model— scoring 19.60. Mistral was serving both as the LLM under examination and the evaluator. Detailed insights are available [here](mistral.md). 
 Given the thorough nature of the testing process, where each question is posed ten times followed by an evaluation of all responses at the document's end, the file is sizeable.
 The scoring methodology is rigorously designed to pursue perfection, allocating 0.1 point for each affirmative (YES) response and deducting 0.2 points for each negative (NO) response.
 
@@ -32,8 +32,8 @@ I have only tested this on Linux but it should be possible to get things running
 
 Some more runs:
 
-[gemma2b, score=19.30](gemma2b.md) [html](gemma2b.html)
+[gemma2b, score=23.80](gemma2b.md) [html](gemma2b.html)
 
-[gemma7b, score=20.80](gemma7b.md) [html](gemma7b.html)
+[gemma7b, score=25.00](gemma7b.md) [html](gemma7b.html)
 
 **In conclusion:** When looking at the evaluations, the evaluator model has its own problems, sometimes answering both YES and NO for the same evaluation. Also the annoying habit of prefixing the answer with: "Sure, here is the answer" is not helping gemma7b. 
