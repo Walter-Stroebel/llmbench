@@ -39,4 +39,7 @@ Some more runs:
 [llama3 (8b), score=26.80](llama3.md) [html](llama3.html)
 This is a **brand new** model, just released and already the clear winner.
 
+[phi3 (4b), score=25.30](phi3.md) [html](phi3.html)
+This is another **brand new** model, blazing fast at >100 tokens/s on my old RTX 3070.
+
 **In conclusion:** When looking at the evaluations, the evaluator model has its own problems, sometimes answering both YES and NO for the same evaluation. Also gemma7b's annoying habit of prefixing the answer with: "Sure, here is the answer:" is not helping.
